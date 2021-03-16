@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="q.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <div style="float: left;">
+                <li><img src="listen-ear-icon-icons-and-png-backgrounds-26.png" height="100cm" width="100cm"></li>
+                <li><h1>easE Education</h1></li>
+            </div>
+            
+            <div style="float: right;">
+                <li><h1>education for everyone</h1></li>
+            </div>
+            
+        </ul>
+    </header>
+    <div class="grid">
+        <div id="quiz">
+            <h1>Questionaire</h1>
+            <hr style="margin-bottom: 20px">
+
+            <p id="question"></p>
+
+            <div class="buttonsall">
+                <button id="btn0" class="buttons" value="10"><span id="choice0"></span></input>
+                <button id="btn1" class="buttons" value="20"><span id="choice1"></span></input>
+                <button id="btn2" class="buttons" value="30"><span id="choice2"></span></input>
+                <button id="btn3" class="buttons" value="40"><span id="choice3"></span></input>
+            </div>
+
+            <hr style="margin-top: 50px">
+            <footer>
+                <ul class="foot">
+                    <li style="float: left;">
+                        <p id="progress">Question x of y</p>
+                    </li>
+                    <li style="float: right;">
+                        <div id="submitbutton" style="visibility: hidden;">
+                            <a href="remedy.html">
+                                <button class="submit">submit</button>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+
+<script src="Quiz.js"></script>
+<script src="Question.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

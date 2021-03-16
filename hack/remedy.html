@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            remedies
+        </title>
+        <link rel="stylesheet" href="remedy.css">
+        <script src= 
+        "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"> 
+        </script>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <div style="float: left;">
+                    <li><img src="listen-ear-icon-icons-and-png-backgrounds-26.png" height="100cm" width="100cm"></li>
+                    <li><h1>easE Education</h1></li>
+                </div>
+                <div style="float: right;">
+                    <li><h1>education for everyone</h1></li>
+                </div>
+            </ul>
+        </header>
+        <h1 class="heading">Analysis</h1>
+        <h3>Radar Chart</h3>
+        <canvas id="myRadarChart" width="4" height=""></canvas><br>
+        <h3>Bar Chart</h3>
+        <canvas id="myBarChart" width="3" height=""></canvas>
+        <script src="radar-chart.js"></script>
+        <script src="bar-chart.js"></script>
+        <div class="content">
+            <h2>Remedies</h2>
+            <div class="rem">
+                <div class="education">
+                    <h4>Education Area</h4>
+                    <p id="edu"></p>
+                </div>
+                <hr style="margin-top: 20px">
+                <div class="teacher">
+                    <h4>Teacher Area</h4>
+                    <p id="tea"></p>
+                </div>
+                <hr style="margin-top: 20px">
+                <div class="school">
+                    <h4>School Area</h4>
+                    <p id="sch"></p>
+                </div>
+                <hr style="margin-top: 20px">
+                <div class="home">
+                    <h4>Home Area</h4>
+                    <p id="home"></p>
+                </div>
+                <hr style="margin-top: 20px">
+                <div class="friends">
+                    <h4>Friends Area</h4>
+                    <p id="fri"></p>
+                </div>
+                <hr style="margin-top: 20px">
+            </div>
+        </div>
+        <button onclick="window.print()">Print this page</button>
+        <script src="remedy.js"></script>
+    </body>
+</html>
