@@ -12,7 +12,7 @@
             <ul>
                 <div style="float: left;">
                     <li><img src="listen-ear-icon-icons-and-png-backgrounds-26.png" height="100cm" width="100cm"></li>
-                    <li><h1>easE Education</h1></li>
+                    <li><h1>easƎ Education</h1></li>
                 </div>
                 
                 <div style="float: right;">
